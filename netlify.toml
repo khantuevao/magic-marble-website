@@ -1,0 +1,50 @@
+[[redirects]]
+  from = "/assets/alpine.min.js"
+  to = "/assets/alpine.min.js"
+  status = 200
+  force = true
+[[redirects]]
+  from = "/assets/BridalPartiesDemoRegular.ttf"
+  to = "/assets/BridalPartiesDemoRegular.ttf"
+  status = 200
+  force = true
+[[redirects]]
+  from = "/assets/index.css"
+  to = "/assets/index.css"
+  status = 200
+  force = true
+[[redirects]]
+  from = "/assets/index.js"
+  to = "/assets/index.js"
+  status = 200
+  force = true
+[[redirects]]
+  from = "/assets/Montserrat-Medium.otf"
+  to = "/assets/Montserrat-Medium.otf"
+  status = 200
+  force = true
+[[redirects]]
+  from = "/assets/utils.js"
+  to = "/assets/utils.js"
+  status = 200
+  force = true
+[[redirects]]
+  from = "/images/logo.jpg"
+  to = "/images/logo.jpg"
+  status = 200
+  force = true
+[[redirects]]
+  from = "/images/marble.png"
+  to = "/images/marble.png"
+  status = 200
+  force = true
+[[redirects]]
+  from = "/images/mrmarbles.jpg"
+  to = "/images/mrmarbles.jpg"
+  status = 200
+  force = true
+[[redirects]]
+  from = "/*"
+  to = "/"
+  status = 200
+  force = true
