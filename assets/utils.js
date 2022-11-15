@@ -4,8 +4,8 @@
 */
 
 
-const API_URL = 'https://marbles-game-api.herokuapp.com';
-const WEB_URL = 'https://illustrious-bombolone-823bb2.netlify.app';
+const API_URL = 'https://seal-app-qujy9.ondigitalocean.app';
+const WEB_URL = 'https://magicmarble-web-k3cap.ondigitalocean.app';
 
 let socket = null;
 const SetSocket = (newSocket) => {
