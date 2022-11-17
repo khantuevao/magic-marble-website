@@ -4,7 +4,9 @@
 */
 
 
+// const API_URL = 'http://localhost:3000';
 const API_URL = 'https://seal-app-qujy9.ondigitalocean.app';
+// const WEB_URL = 'http://localhost:5173';
 const WEB_URL = 'https://magicmarble-web-k3cap.ondigitalocean.app';
 
 let socket = null;
