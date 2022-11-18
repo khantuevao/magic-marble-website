@@ -2314,45 +2314,25 @@ var re=Object.defineProperty;var ie=(r,e,t)=>e in r?re(r,e,{enumerable:!0,config
       </div>
       <div id="main-bot">
         <div id="bot-left">
-          <div id="layer-p2">
+          <div id="layer-p2" class="hidden-item">
             <div class="info">
               <div class="name two">Player 2</div>
               <div class="role two">Guesser</div>
             </div>
-            <div class="score two">12</div>
+            <div class="score two"></div>
             <div class="marbles two">
-              <div class="marble"></div>
-              <div class="marble"></div>
-              <div class="marble"></div>
-              <div class="marble"></div>
-              <div class="marble"></div>
-              <div class="marble"></div>
-              <div class="marble"></div>
-              <div class="marble"></div>
-              <div class="marble"></div>
-              <div class="marble"></div>
-              <div class="marble"></div>
-              <div class="marble"></div>
             </div>
           </div>
-          <div id="layer-p1">
+          <div id="layer-p1" class="hidden-item">
             <div class="info">
               <div class="name one">Player 1</div>
               <div class="role one">Hider</div>
             </div>
-            <div class="score one">8</div>
+            <div class="score one"></div>
             <div class="marbles one">
-              <div class="marble"></div>
-              <div class="marble"></div>
-              <div class="marble"></div>
-              <div class="marble"></div>
-              <div class="marble"></div>
-              <div class="marble"></div>
-              <div class="marble"></div>
-              <div class="marble"></div>
             </div>
           </div>
-          <div id="layer-bet">
+          <div id="layer-bet" class="hidden-item">
             <div class="wrapper">
               <input id="bet-type" value="even" type="checkbox" />
               <label id="bet" for="bet-type">
@@ -2461,36 +2441,28 @@ var re=Object.defineProperty;var ie=(r,e,t)=>e in r?re(r,e,{enumerable:!0,config
               <div class="stats-line  two">
                 <div class="pointer">You are here</div>
                 <div class="amount">10k</div>
-
               </div>
               <div class="stats-line three">
                 <div class="pointer">You are here</div>
                 <div class="amount">5k</div>
-
               </div>
               <div class="stats-line four">
                 <div class="pointer">You are here</div>
-
               </div>
               <div class="stats-line five">
                 <div class="pointer">You are here</div>
-
               </div>
               <div class="stats-line six">
                 <div class="pointer">You are here</div>
-
               </div>
               <div class="stats-line seven">
                 <div class="pointer">You are here</div>
-
               </div>
               <div class="stats-line eight">
                 <div class="pointer">You are here</div>
-
               </div>
               <div class="stats-line nine">
                 <div class="pointer current">You are here</div>
-
               </div>
             </div>
           </div>
