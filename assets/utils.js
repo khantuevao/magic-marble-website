@@ -4,7 +4,7 @@
 */
 
 
-const API_URL = 'https://seal-app-qujy9.ondigitalocean.app';
+const API_URL = 'https://magic-marble-api.herokuapp.com';
 // const API_URL = 'http://localhost:3000';
 const WEB_URL = 'https://magicmarble-web-k3cap.ondigitalocean.app';
 // const WEB_URL = 'http://localhost:5500';
