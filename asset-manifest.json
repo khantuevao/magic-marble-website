@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.01d6979e.css",
+    "main.js": "/static/js/main.c2a361b2.js",
+    "static/media/Inter-Bold.ttf": "/static/media/Inter-Bold.88fa7ae373b07b41ecce.ttf",
+    "static/media/Inter-Regular.ttf": "/static/media/Inter-Regular.e89cb19905e7db5591b0.ttf",
+    "static/media/Bruno Ace Regular.ttf": "/static/media/Bruno Ace Regular.1d2d4719616950868d4b.ttf",
+    "static/media/Cantarell-Regular.ttf": "/static/media/Cantarell-Regular.d92f45e08b65acbc2b2f.ttf",
+    "index.html": "/index.html",
+    "main.01d6979e.css.map": "/static/css/main.01d6979e.css.map",
+    "main.c2a361b2.js.map": "/static/js/main.c2a361b2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.01d6979e.css",
+    "static/js/main.c2a361b2.js"
+  ]
+}
