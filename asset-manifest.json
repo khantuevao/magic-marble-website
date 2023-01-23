@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.ecb360dd.css",
-    "main.js": "/static/js/main.d9749cbe.js",
+    "main.css": "/static/css/main.bd44bf9d.css",
+    "main.js": "/static/js/main.b700bda7.js",
     "static/media/Inter-Bold.ttf": "/static/media/Inter-Bold.88fa7ae373b07b41ecce.ttf",
     "static/media/Inter-Regular.ttf": "/static/media/Inter-Regular.e89cb19905e7db5591b0.ttf",
+    "static/media/SpaceGrotesk-Medium.otf": "/static/media/SpaceGrotesk-Medium.9cf68d36a9433d5d427e.otf",
+    "static/media/SpaceGrotesk-Bold.otf": "/static/media/SpaceGrotesk-Bold.84491a7b22b78320f103.otf",
+    "static/media/SpaceGrotesk-Light.otf": "/static/media/SpaceGrotesk-Light.4f28aa818ef836a4d0bf.otf",
     "static/media/Bruno Ace Regular.ttf": "/static/media/Bruno Ace Regular.1d2d4719616950868d4b.ttf",
     "static/media/Cantarell-Regular.ttf": "/static/media/Cantarell-Regular.d92f45e08b65acbc2b2f.ttf",
-    "index.html": "/index.html",
-    "main.ecb360dd.css.map": "/static/css/main.ecb360dd.css.map",
-    "main.d9749cbe.js.map": "/static/js/main.d9749cbe.js.map"
+    "index.html": "/index.html"
   },
   "entrypoints": [
-    "static/css/main.ecb360dd.css",
-    "static/js/main.d9749cbe.js"
+    "static/css/main.bd44bf9d.css",
+    "static/js/main.b700bda7.js"
   ]
 }
