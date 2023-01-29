@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.0ca2b088.css",
-    "main.js": "/static/js/main.b0cfde32.js",
+    "main.css": "/static/css/main.f31dc806.css",
+    "main.js": "/static/js/main.75f30462.js",
     "static/media/Inter-Bold.ttf": "/static/media/Inter-Bold.88fa7ae373b07b41ecce.ttf",
     "static/media/Inter-Regular.ttf": "/static/media/Inter-Regular.e89cb19905e7db5591b0.ttf",
     "static/media/SpaceGrotesk-Medium.otf": "/static/media/SpaceGrotesk-Medium.9cf68d36a9433d5d427e.otf",
@@ -12,7 +12,7 @@
     "index.html": "/index.html"
   },
   "entrypoints": [
-    "static/css/main.0ca2b088.css",
-    "static/js/main.b0cfde32.js"
+    "static/css/main.f31dc806.css",
+    "static/js/main.75f30462.js"
   ]
 }
