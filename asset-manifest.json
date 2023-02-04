@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.c1fdcc82.css",
-    "main.js": "/static/js/main.83bc9c94.js",
+    "main.js": "/static/js/main.f920fa06.js",
     "static/media/Inter-Bold.ttf": "/static/media/Inter-Bold.88fa7ae373b07b41ecce.ttf",
     "static/media/Inter-Regular.ttf": "/static/media/Inter-Regular.e89cb19905e7db5591b0.ttf",
     "static/media/SpaceGrotesk-Medium.otf": "/static/media/SpaceGrotesk-Medium.9cf68d36a9433d5d427e.otf",
@@ -13,6 +13,6 @@
   },
   "entrypoints": [
     "static/css/main.c1fdcc82.css",
-    "static/js/main.83bc9c94.js"
+    "static/js/main.f920fa06.js"
   ]
 }
