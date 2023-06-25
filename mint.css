@@ -279,6 +279,7 @@ video {
   width: inherit;
   margin-top: 6rem;
   border-radius: 100rem;
+  
 }
 
 #text-over-video {
@@ -610,13 +611,14 @@ video {
 
 /*Content mobile styling*/
 @media (max-width: 1200px) {
+
   #video-box {
     height: calc(100vh + 3rem);
     width: 100%;
   }
 
   video {
-    width: auto;
+    width: 100%;
   }
 
   #text-over-video {
