@@ -306,7 +306,7 @@ video {
   color: white;
   text-decoration: none;
   margin-top: 2rem;
-  margin-bottom: 6rem;
+  margin-bottom: 4rem;
   max-width: 4rem;
   text-align: center;
 }
@@ -517,6 +517,22 @@ li > div:last-child {
   transform: scale(1.6);
 }
 
+#info {
+    display: flex;
+    gap: 1.5rem;
+    margin-bottom: 6rem;
+    color: rgb(199, 199, 199);
+  }
+
+  h3 {
+    color: rgb(199, 199, 199);
+
+  }
+
+  #info-left, #info-right {
+    display: flex;
+    flex-direction: column;
+  }
 
 
 /*Content wide-screen styling*/
@@ -607,6 +623,8 @@ video {
   #roadmap > p {
     font-size: 1.6rem;
   }
+
+  
 }
 
 /*Content mobile styling*/
