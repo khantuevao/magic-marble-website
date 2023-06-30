@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./mint.css" />
+    <script src="./mint.js" defer></script>
     <title>Magic Marble</title>
   </head>
   <body>
@@ -22,10 +23,46 @@
       </div>
     </header>
 
+    <div class="loader-container hidden">
+      <div class="spinner"></div>
+    </div>
+
+    <div class="submitted hidden">
+      <div class="create-account">
+        <h1>Form Submitted successfully</h1>
+      </div>
+    </div>
+
+    <div class="popup-form hidden">
+      <div class="create-account">
+        <h1>Thank you minting our NFT, you are now in the participation list. Please fill the form below to get your ticket.</h1>
+      </div>
+      <div>
+        
+        <div class="username">
+          <label for="username">Name</label>
+          <input type="text" id="username" name="username" /> <br />
+        </div>
+        <div class="email">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" /> <br />
+        </div>
+       
+      </div>
+      <div id="register-buttons">
+        
+        <button class="glow-button" target="_blank">
+          <div>Submit</div>
+        </button>
+        
+      </div>
+      
+    </div>
+
     <div id="main-container">
       <video loop muted playsinline autoplay src="./8.mp4"></video>
 
-      <a href="https://squid-app-mtjl8.ondigitalocean.app/">Mint</a>
+      <button id="mint-button" href="">Mint</button>
 
       <h3>DETAILS</h3>
       <div id="info">
@@ -64,15 +101,7 @@
 
 
     <script>
-      document.getElementById('connect-wallet').addEventListener('click', event => {
-        let account;
-        let button = event.target;
-        window.ethereum.request({method: 'eth_requestAccounts'}).then(accounts => {
-          account = accounts[0];
-          console.log(account)
-          button.textContent = account;
-        })
-      })
+      
     </script>
 
 
