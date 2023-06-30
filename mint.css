@@ -115,7 +115,7 @@ header {
   gap: 0.5rem;
 }
 
-#right-links > a {
+#right-links > button {
   border: none;
   border-radius: 0.5rem;
   padding: 0.5rem 0.8rem;
@@ -123,19 +123,20 @@ header {
   background-color: #292524;
   color: #fafaf9;
   transition: all 0.2s ease-in-out;
+  cursor: pointer;
 }
 
 
 
-#right-links > a:last-child {
+#right-links > button {
   background: radial-gradient(100.03% 140.18% at 0 85.53%,#f0f 0,#6d00cc 95.31%);
 }
 
-#right-links > a:last-child:hover {
+#right-links > button:hover {
   background: radial-gradient(30.03% 80.18% at 0 70.53%,#f0f 0,#6d00cc 95.31%);
 }
 
-#right-links > a {
+#right-links > button {
   text-decoration: none;
   color: #fafaf9;
   font-size: 1rem;

@@ -18,7 +18,7 @@
       </a>
       
       <div id="right-links">
-        <a href="https://squid-app-mtjl8.ondigitalocean.app/">Connect Wallet</a>
+        <button id="connect-wallet">Connect Wallet</button>
       </div>
     </header>
 
@@ -61,5 +61,20 @@
       </div>
       
     </footer>
+
+
+    <script>
+      document.getElementById('connect-wallet').addEventListener('click', event => {
+        let account;
+        let button = event.target;
+        window.ethereum.request({method: 'eth_requestAccounts'}).then(accounts => {
+          account = accounts[0];
+          console.log(account)
+          button.textContent = account;
+        })
+      })
+    </script>
+
+
   </body>
 </html>
